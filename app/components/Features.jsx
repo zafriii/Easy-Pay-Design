@@ -3,6 +3,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import LogoDemo from "./LogoDemo";
 
 // Feature cards data
 const featureCards = [
@@ -212,6 +213,7 @@ export default function FeaturesSection() {
           ))}
         </div>
       </div>
+      <LogoDemo />
     </section>
   );
 }
