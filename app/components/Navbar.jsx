@@ -23,7 +23,7 @@ export default function Navbar() {
   const toggleMenu = () => setMenuOpen((prev) => !prev);
 
   return (
-    <nav className="relative mx-auto flex h-[70px] w-full max-w-[1170px] items-center justify-between px-4 md:px-6">
+    <nav className="relative mx-auto flex h-[0px] w-full max-w-[1170px] items-center justify-between px-4 md:px-6">
       {/* Logo Section */}
       <div className="flex items-center gap-2">
         <Image
